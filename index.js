@@ -5,6 +5,7 @@ const app = express()
 const PORT = 3030;
 
 
+
 //middlewares 
 app.use(cors());
 app.use(express.json());
