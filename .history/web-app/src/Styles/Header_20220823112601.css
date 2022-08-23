@@ -1,0 +1,11 @@
+header{
+    background-color: white;
+    height: 3rem;
+    color: black;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
