@@ -11,13 +11,9 @@ const Header = () => {
 
     return (
       <nav className='navigation'>
-        {/*  --- Logo  --- */}
         <div className='logo-container'>
         <img src={logo} className="logo" />
         </div>
-
-        {/* --- inbetween space --- */}
-
 
         <div className='brand-name-logo'>
           <a href='/' className='brand-name' > HotSoup </a>
