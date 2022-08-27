@@ -28,7 +28,6 @@ const Header = () => {
         > 
         <img src={bars} className="hamburger" />        
         </button>
-  
         <div
           className={
             isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
