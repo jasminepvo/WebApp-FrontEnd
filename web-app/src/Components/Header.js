@@ -3,7 +3,7 @@ import bars from '../images/menu1.svg';
 import logo from '../images/logo.png';
 
 import '../Styles/Header.css';
-
+// Hugo will do header and footer. That will include hamburger menu and modal for social media links
 
 const Header = () => {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
