@@ -1,7 +1,6 @@
 import About from './Components/About';
 import Contributors from './Components/Contributors';
 import Header from './Components/Header';
-import Footer from './Components/Footer';
 
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
   <Header/>
    <About/>
    <Contributors/>
-   <Footer/>
   </>
   );
 }
