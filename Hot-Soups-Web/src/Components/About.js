@@ -9,7 +9,7 @@ const sayHello = () => {
 const About = () => {
     return (
     <>
-    <div className='about-container' id='About'>
+    <div className='about-container'>
         <h1>About Hot Soup</h1>
         <p> Some random text for now. </p>
         <button onClick={sayHello}> hi </button>
