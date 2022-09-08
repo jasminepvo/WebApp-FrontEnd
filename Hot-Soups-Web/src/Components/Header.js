@@ -36,17 +36,17 @@ const Header = () => {
             <li onClick={() => {
             setIsNavExpanded(!isNavExpanded);
           }}>
-              <a href='/'>About</a>
+              <a href='/#About'>About</a>
             </li>
             <li onClick={() => {
             setIsNavExpanded(!isNavExpanded);
           }}>
-              <a href="/Menu">Contributors</a>
+              <a href="/#Contributors">Contributors</a>
             </li>
             <li onClick={() => {
             setIsNavExpanded(!isNavExpanded);
           }}>
-              <a href="/socials">Follow us</a>
+              <a href="/#Socials">Follow us</a>
             </li>
           </ul>
         </div>

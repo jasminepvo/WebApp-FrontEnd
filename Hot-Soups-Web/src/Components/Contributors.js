@@ -4,7 +4,7 @@ import '../Styles/Contributors.css';
 const Contributors = () => {
   return (
 <>
-    <header> Hi how are you </header>
+    <header id='Contributors'> Hi how are you </header>
     <div className='con-body'>Contributors</div>
 </>
   )
