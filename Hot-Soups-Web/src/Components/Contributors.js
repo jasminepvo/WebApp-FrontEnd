@@ -23,9 +23,15 @@ const Contributors = () => {
 							<h2 className="con-title">Co-Founder</h2>
 						</div>
 						<div className="con-socials">
-							<img src={LinkedInIcon} alt="discord icon"></img>
-							<img src={GithubIcon} alt="discord icon"></img>
-							<img src={DiscordIcon} alt="discord icon"></img>
+							<a href="https://linkedin.com/">
+								<img src={LinkedInIcon} alt="linkedin icon"></img>
+							</a>
+							<a href="https://github.com/">
+								<img src={GithubIcon} alt="github icon"></img>
+							</a>
+							<a href="https://discord.com/">
+								<img src={DiscordIcon} alt="discord icon"></img>
+							</a>
 						</div>
 					</div>
 					<div className="contributor">
@@ -37,9 +43,15 @@ const Contributors = () => {
 							<h2 className="con-title">CEO</h2>
 						</div>
 						<div className="con-socials">
-							<img src={LinkedInIcon} alt="discord icon"></img>
-							<img src={GithubIcon} alt="discord icon"></img>
-							<img src={DiscordIcon} alt="discord icon"></img>
+							<a href="https://linkedin.com/">
+								<img src={LinkedInIcon} alt="linkedin icon"></img>
+							</a>
+							<a href="https://github.com/">
+								<img src={GithubIcon} alt="github icon"></img>
+							</a>
+							<a href="https://discord.com/">
+								<img src={DiscordIcon} alt="discord icon"></img>
+							</a>
 						</div>
 					</div>
 				</div>
