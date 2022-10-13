@@ -43,39 +43,54 @@ const Contributors = () => {
 						</form>
 					</div>
 				</div>
+
 				<div className="contributors-section">
 					<div className="contributors-intro">
-						<h2>Meet The Team</h2>
-						<p>Making an impact</p>
+						<div className="intro-box">
+							<h2>Meet The Team</h2>
+							<p>Making an impact</p>
+						</div>
 					</div>
 
 					{/* MAIN CONTRIBUTORS */}
 					<div className="contributors-main">
-						<div className="contributor">
-							<div className="con-image">
-								<img className="con-headshot" alt="headshot"></img>
+						<div className="contributor-main">
+							<div className="con-main-image">
+								<img
+									className="con-main-headshot"
+									src="https://source.unsplash.com/mEZ3PoFGs_k"
+									alt="headshot"
+								></img>
 							</div>
-							<div className="con-content">
-								<h1 className="con-name">Danny Phantom</h1>
-								<h2 className="con-title">President & Founder</h2>
-							</div>
-						</div>
-						<div className="contributor">
-							<div className="con-image">
-								<img className="con-headshot" alt="headshot"></img>
-							</div>
-							<div className="con-content">
-								<h1 className="con-name">Jasmine Love</h1>
-								<h2 className="con-title">Vice presdient & Founder</h2>
+							<div className="con-main-content">
+								<h3 className="con-main-name">Danny Phantom</h3>
+								<h4 className="con-main-title">President & Founder</h4>
 							</div>
 						</div>
-						<div className="contributor">
-							<div className="con-image">
-								<img className="con-headshot" alt="headshot"></img>
+						<div className="contributor-main">
+							<div className="con-main-image">
+								<img
+									className="con-main-headshot"
+									src="https://source.unsplash.com/mEZ3PoFGs_k"
+									alt="headshot"
+								></img>
 							</div>
-							<div className="con-content">
-								<h1 className="con-name">Jasmine Love</h1>
-								<h2 className="con-title">Other thingy</h2>
+							<div className="con-main-content">
+								<h3 className="con-main-name">Jasmine Love</h3>
+								<h4 className="con-main-title">Vice Presdient & Founder</h4>
+							</div>
+						</div>
+						<div className="contributor-main">
+							<div className="con-main-image">
+								<img
+									className="con-main-headshot"
+									src="https://source.unsplash.com/mEZ3PoFGs_k"
+									alt="headshot"
+								></img>
+							</div>
+							<div className="con-main-content">
+								<h3 className="con-main-name">Jasmine Love</h3>
+								<h4 className="con-main-title">Co Founder</h4>
 							</div>
 						</div>
 					</div>
@@ -84,11 +99,113 @@ const Contributors = () => {
 					<div className="contributors-additional">
 						<div className="contributor">
 							<div className="con-image">
-								<img className="con-headshot" alt="headshot"></img>
+								<img
+									className="con-headshot"
+									src="https://source.unsplash.com/iEEBWgY_6lA"
+									alt="headshot"
+								></img>
 							</div>
 							<div className="con-content">
 								<h1 className="con-name">Danny Phantom</h1>
-								<h2 className="con-title">Co-Founder</h2>
+								<h2 className="con-title">Frontend</h2>
+							</div>
+							<div className="con-socials">
+								<a href="https://linkedin.com/">
+									<img src={LinkedInIcon} alt="linkedin icon"></img>
+								</a>
+								<a href="https://github.com/">
+									<img src={GithubIcon} alt="github icon"></img>
+								</a>
+								<a href="https://discord.com/">
+									<img src={DiscordIcon} alt="discord icon"></img>
+								</a>
+							</div>
+						</div>
+
+						{/* TEST DATA FOR LAYOUT */}
+						<div className="contributor">
+							<div className="con-image">
+								<img
+									className="con-headshot"
+									src="https://source.unsplash.com/iEEBWgY_6lA"
+									alt="headshot"
+								></img>
+							</div>
+							<div className="con-content">
+								<h1 className="con-name">Danny Phantom</h1>
+								<h2 className="con-title">Frontend</h2>
+							</div>
+							<div className="con-socials">
+								<a href="https://linkedin.com/">
+									<img src={LinkedInIcon} alt="linkedin icon"></img>
+								</a>
+								<a href="https://github.com/">
+									<img src={GithubIcon} alt="github icon"></img>
+								</a>
+								<a href="https://discord.com/">
+									<img src={DiscordIcon} alt="discord icon"></img>
+								</a>
+							</div>
+						</div>
+						<div className="contributor">
+							<div className="con-image">
+								<img
+									className="con-headshot"
+									src="https://source.unsplash.com/iEEBWgY_6lA"
+									alt="headshot"
+								></img>
+							</div>
+							<div className="con-content">
+								<h1 className="con-name">Danny Phantom</h1>
+								<h2 className="con-title">Frontend</h2>
+							</div>
+							<div className="con-socials">
+								<a href="https://linkedin.com/">
+									<img src={LinkedInIcon} alt="linkedin icon"></img>
+								</a>
+								<a href="https://github.com/">
+									<img src={GithubIcon} alt="github icon"></img>
+								</a>
+								<a href="https://discord.com/">
+									<img src={DiscordIcon} alt="discord icon"></img>
+								</a>
+							</div>
+						</div>
+						<div className="contributor">
+							<div className="con-image">
+								<img
+									className="con-headshot"
+									src="https://source.unsplash.com/iEEBWgY_6lA"
+									alt="headshot"
+								></img>
+							</div>
+							<div className="con-content">
+								<h1 className="con-name">Danny Phantom</h1>
+								<h2 className="con-title">Frontend</h2>
+							</div>
+							<div className="con-socials">
+								<a href="https://linkedin.com/">
+									<img src={LinkedInIcon} alt="linkedin icon"></img>
+								</a>
+								<a href="https://github.com/">
+									<img src={GithubIcon} alt="github icon"></img>
+								</a>
+								<a href="https://discord.com/">
+									<img src={DiscordIcon} alt="discord icon"></img>
+								</a>
+							</div>
+						</div>
+						<div className="contributor">
+							<div className="con-image">
+								<img
+									className="con-headshot"
+									src="https://source.unsplash.com/iEEBWgY_6lA"
+									alt="headshot"
+								></img>
+							</div>
+							<div className="con-content">
+								<h1 className="con-name">Danny Phantom</h1>
+								<h2 className="con-title">Frontend</h2>
 							</div>
 							<div className="con-socials">
 								<a href="https://linkedin.com/">
