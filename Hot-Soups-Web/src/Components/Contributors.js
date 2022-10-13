@@ -10,20 +10,35 @@ const Contributors = () => {
 			<div className="con-body">
 				<div className="contactus-section">
 					<div className="contactus-left">
-						<div>
+						<div className="blackBox">
 							<h3>DONATE STUFF</h3>
 							<p>
 								Cool Link To Some Crowd Sourcing Site That We Don't Have Yet
 							</p>
 						</div>
+						<div className="yellowBox"></div>
 					</div>
 					<div className="contactus-right">
-						<h2>Contact Us</h2>
-						<p>Got A Question? We'd Love To Chat! Send A Message!</p>
-						<form>
-							<input>Name*</input>
-							<input>Email*</input>
-							<textarea>Message*</textarea>
+						<div className="contact-intro">
+							<h2>Contact Us</h2>
+							<p>Got A Question? We'd Love To Chat! Send A Message!</p>
+						</div>
+						<form id="contact-form">
+							<label>
+								{" "}
+								Name*
+								<input type="text" name="name"></input>
+							</label>
+							<label>
+								{" "}
+								Email*
+								<input type="email" name="email"></input>
+							</label>
+							<label>
+								{" "}
+								Message*
+								<textarea name="message"></textarea>
+							</label>
 							<button>SEND MESSAGE</button>
 						</form>
 					</div>
