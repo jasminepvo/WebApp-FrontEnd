@@ -1,9 +1,23 @@
 .con-body {
-	background-color: white;
-	height: 100vh;
+	background-color: #262626;
+	color: #ffc529;
+	height: 150%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
+
+/**************
+  CONTACT US
+**************/
+.contactus-section {
+	height: 50%;
+	width: 100%;
+}
+
+/**************
+  CONTRIBUTORS
+**************/
 .contributors {
 	height: 10%;
 	width: 100%;

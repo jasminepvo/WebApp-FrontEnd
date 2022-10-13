@@ -7,8 +7,8 @@ import LinkedInIcon from "../Assests/Icons/linkedin-box-fill.svg";
 const Contributors = () => {
 	return (
 		<>
-			<header> Start of Contributors Page </header>
 			<div className="con-body">
+				<div className="contactus-section"></div>
 				<div className="contributors">
 					<h3>Contributors</h3>
 				</div>
