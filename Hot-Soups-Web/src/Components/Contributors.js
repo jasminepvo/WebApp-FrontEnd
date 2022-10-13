@@ -58,12 +58,12 @@ const Contributors = () => {
 							<div className="con-main-image">
 								<img
 									className="con-main-headshot"
-									src="https://source.unsplash.com/mEZ3PoFGs_k"
+									src="https://media-exp1.licdn.com/dms/image/C4E03AQHsgxstdJQYIw/profile-displayphoto-shrink_800_800/0/1646327533904?e=1671062400&v=beta&t=IxlYLnWc9rJ4wXa41Lk-_JtS2iTKtoUpYkbGMQJ_Hpc"
 									alt="headshot"
 								></img>
 							</div>
 							<div className="con-main-content">
-								<h3 className="con-main-name">Danny Phantom</h3>
+								<h3 className="con-main-name">Robin Weitzman</h3>
 								<h4 className="con-main-title">President & Founder</h4>
 							</div>
 						</div>
